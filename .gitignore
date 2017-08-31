@@ -1,0 +1,5 @@
+ly_cdn_tools.egg-info
+build
+dist
+*.pyc
+.venv
