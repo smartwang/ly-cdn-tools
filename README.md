@@ -14,17 +14,17 @@ example
 ----------
 
 ```
-    from ly_cdn_tools.warmup.aliyun import AliyunManager
-    
-    ak = os.getenv("AK", "")
-    
-    secret = os.getenv("SECRET", "")
-    
-    region = os.getenv("REGION", "")
-    
-    url_file = os.getenv("URL_FILE", "")
-    
-    manager = AliyunManager(ak=ak, secret=secret, region=region)
-    
-    manager.warn_up(url_file)
+from ly_cdn_tools.warmup.aliyun import AliyunManager
+
+ak = os.getenv("AK", "")
+
+secret = os.getenv("SECRET", "")
+
+region = os.getenv("REGION", "")
+
+url_file = os.getenv("URL_FILE", "")
+
+manager = AliyunManager(ak=ak, secret=secret, region=region)
+
+manager.warn_up(url_file)
 ``` 
